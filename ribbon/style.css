@@ -21,14 +21,14 @@ header {
 .ribbon {
     margin: 0 auto;
     width: 1004px;
-    /*width: 63rem;  1008px ÷ 16px */
+    width: 62.75rem; /* 1004px ÷ 16px */
 }
 
 .ribbon nav {
     display: inline-block;
     position: relative;
     width: 1004px;
-    /*width: 63rem;  1008px ÷ 16px */
+    width: 62.75rem; /* 1004px ÷ 16px */
     height: 64px;
     height: 4rem; /* 64px ÷ 16px */
     background: #282828;
