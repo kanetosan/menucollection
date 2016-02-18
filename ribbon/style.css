@@ -91,3 +91,51 @@ header {
     height: 4.25rem; /* 68px ÷ 16px */
     background: #D9E2E9;
 }
+
+/*******************************************************************************
+*
+*  Media Queries » Less than 768px
+*
+*  These styles will be applied to portable devices with large screens
+*  (e.g. portrait tablets, netbooks)
+*
+*******************************************************************************/
+
+@media screen and (max-width: 768px) {
+
+    header {
+        padding: 0;
+    }
+
+    .ribbon-wrap {
+        height: auto;
+    }
+
+      .ribbon
+    , .ribbon nav {
+        width: 100%;
+        height: auto;
+    }
+
+      .ribbon-outside
+    , .ribbon nav:before
+    , .ribbon nav:after {
+        display: none;
+    }
+
+    .ribbon nav ul {
+        width: 100%;
+        padding: 0;
+    }
+
+    .ribbon nav ul li {
+        display: block;
+        text-align: center;
+        margin: 0 0 4px;
+        margin: 0 0 0.25rem; /* 4px ÷ 16px */
+        padding: 4px 0;
+        padding: 0.25rem 0; /* 4px ÷ 16px */
+        background-color: #333;
+    }
+
+}
